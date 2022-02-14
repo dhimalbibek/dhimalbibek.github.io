@@ -23,7 +23,7 @@
         text-align: center;
         color: yellow;
         font-style: italic;
-       opacity: 2;
+
       }
       .blur{
           filter: blur(px);
@@ -137,7 +137,7 @@ body{
     background-color: whitesmoke;
     padding: 10px;
     align-content: flex-start;
-    height: 700px;
+    /* height: 700px; */
 
 }
 .icon{
@@ -196,13 +196,13 @@ body{
    text-align: center;
    background-color:whitesmoke;
    color: black;
-   height: 700px;
+
 }
 .contact{
     text-align: center;
     color: black;
     background-color: whitesmoke;
-    height: 700px;
+    /* height: 700px; */
 }
 .inp{
     width: 400px;
@@ -216,7 +216,4 @@ body{
     box-shadow: 0px 0px 0.5px 1px blue;
     background-color: skyblue;
 
-}
-.l{
-    padding: 250px;
 }
