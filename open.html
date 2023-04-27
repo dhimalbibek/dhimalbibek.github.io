@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #text {
+        font-size: 24px;
+        color: blue;
+      }
+
+      #text:hover {
+        cursor: pointer;
+      }
+    </style>
+    <script>
+      function changeText() {
+        document.getElementById("text").innerHTML = "New Text Here";
+      }
+    </script>
+  </head>
+  <body>
+    <p
+      id="text"
+      onmouseover="changeText()"
+      onmouseout="this.innerHTML='Hover over me to change my text'"
+    >
+      Hover over me to change my text
+    </p>
+  </body>
+</html>

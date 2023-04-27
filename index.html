@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Html design template -->
+
+    <!-- navbar -->
+    <div>
+      <ul>
+        <style>
+          ul {
+            color: white;
+            list-style: None;
+            background-color: rgb(9, 9, 9);
+          }
+          .a {
+            float: left;
+            padding-left: 40px;
+            background-color: Black;
+            text-decoration: None;
+            color: aliceblue;
+          }
+          .b {
+            padding-left: 85%;
+            color: aliceblue;
+          }
+          button:hover {
+            background-color: rgb(86, 20, 218);
+          }
+          .a:hover {
+            background-color: aqua;
+          }
+
+          .text {
+            font-size: 24px;
+            color: rgb(73, 21, 184);
+          }
+
+          .text:hover {
+            cursor: pointer;
+            background-color: black;
+          }
+        </style>
+        <div>
+          <a href=""><li class="a">Logo</li></a>
+          <a href=""><li class="a">Home</li></a>
+          <a href=""><li class="a">Products</li></a>
+          <a href=""><li class="a">Contacts</li></a>
+          <a href=""
+            ><li class="b"><input type="text" placeholder="Search" /></li
+          ></a>
+        </div>
+      </ul>
+    </div>
+
+    <!-- H1 headings below the navbar -->
+    <div style="background-color: yellow; padding-bottom: 100px">
+      <h1
+        class="text"
+        style="text-align: center; padding-top: 50px"
+        id="text"
+        onmouseover="changeText()"
+        onmouseout="this.innerHTML='Dramatically Engage'"
+      >
+        Dramatically Engage
+      </h1>
+      <h3 style="text-align: center; padding-top: 50px">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum amet,
+        similique assumenda exercitationem
+      </h3>
+      <button style="display: block; margin: 0 auto; color: black">
+        Engage Now
+      </button>
+    </div>
+
+    <!-- 3rd part -->
+
+    <div>
+      <h1 style="text-align: center">Superior Collaboration</h1>
+      <p style="text-align: center">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio sed
+        corporis magni qui eius temporibus tempore sunt neque quia nisi illum
+        quos nesciunt aut vitae, id dolorem error commodi mollitia?
+      </p>
+    </div>
+
+    <!-- image  -->
+    <div>
+      <div style="width: 30%; display: inline-block">
+        <img
+          style="width: 400px; margin-right: 50px; margin-left: 40px"
+          src="https://www.quackit.com/pix/html/templates/download/bootstrap/corporate-1a.png"
+          alt=""
+        />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, odio eos
+          exercitationem facilis assumenda voluptate dolores labore aspernatur.
+          Nesciunt deserunt ad culpa similique magni quam velit temporibus
+          voluptatibus itaque natus!
+        </p>
+      </div>
+      <div style="width: 30%; display: inline-block">
+        <img
+          style="width: 400px; margin-right: 50px; margin-left: 40px"
+          src="https://www.quackit.com/pix/html/templates/download/bootstrap/corporate-1a.png"
+          alt=""
+        />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, odio eos
+          exercitationem facilis assumenda voluptate dolores labore aspernatur.
+          Nesciunt deserunt ad culpa similique magni quam velit temporibus
+          voluptatibus itaque natus!
+        </p>
+      </div>
+      <div style="width: 30%; display: inline-block">
+        <img
+          style="width: 400px; margin-left: 40px"
+          src="https://www.quackit.com/pix/html/templates/download/bootstrap/corporate-1a.png"
+          alt=""
+        />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, odio eos
+          exercitationem facilis assumenda voluptate dolores labore aspernatur.
+          Nesciunt deserunt ad culpa similique magni quam velit temporibus
+          voluptatibus itaque natus!
+        </p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div style="background-color: rgb(99, 42, 165); color: aliceblue">
+      <div style="width: 30%; display: inline-block">
+        <h5>Free theme</h5>
+
+        <li>All Free Themes</li>
+        <li>Activello Theme</li>
+        <li>Illdy Theme</li>
+        <li>Shapely</li>
+      </div>
+      <div style="width: 30%; display: inline-block">
+        <h5>Useful</h5>
+
+        <li>About Colorlib</li>
+        <li>Advertise</li>
+        <li>WordPress Themes</li>
+        <li>Website Templates</li>
+      </div>
+      <div style="width: 30%; display: inline-block">
+        <h5>Colourlib</h5>
+        <p>We change everything WordPress.</p>
+        <p>One WP theme at a time.</p>
+      </div>
+    </div>
+    <script>
+      function textChange() {
+        document.getElementById("text").innerText = "Kasto lagyo ta dost?";
+      }
+    </script>
+  </body>
+</html>
